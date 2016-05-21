@@ -2,14 +2,15 @@
 using System.Collections;
 
 public class movingRock : MonoBehaviour {
-    float time;
+
 	// Use this for initialization
 	void Start () {
 	
 	}
 
-	int count;
-	public int var=1;
+	private int count;
+    private float time;
+	public float var=1;
     public float delay = 0.0f;
 
 
