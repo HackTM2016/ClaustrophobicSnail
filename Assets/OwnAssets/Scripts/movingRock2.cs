@@ -8,7 +8,7 @@ public class movingRock2 : MonoBehaviour {
 
 	}
 
-    private int count;
+    public int count = 50;
     public float var = 1;
     public float delay = 0.0f;
 
